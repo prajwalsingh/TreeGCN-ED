@@ -1,5 +1,5 @@
 # TreeGCN-ED
-An autoencoder for point cloud encoding-decoding build on the work of tree-GAN
+An autoencoder for point cloud encoding-decoding build using tree-GAN as base work.
 
 # Dataset Generation Step
 * ShapeNetBenchmarkV2 dataset is used.
