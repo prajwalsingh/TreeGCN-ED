@@ -17,49 +17,42 @@ An autoencoder for point cloud encoding-decoding build on the work of tree-GAN
   * [treeED_eckpt](https://drive.google.com/drive/folders/1IJy209nC8-V8ZvM55rhlnQ3iJZKIz2FF?usp=sharing)
 * Keep treeED_ckpt, treeED_eckpt as it is in code directory.
 
-<!-- # Results
-  <table style="width:100%; height:100%; border:none;">
-          <tr>
-               <td>
-                    <img src="https://github.com/prajwalsingh/TreeGCN-GAN/blob/main/results/65010.png" style="width:128px; height:128px;"/>
-               </td>
-               <td>
-                    <img src="https://github.com/prajwalsingh/TreeGCN-GAN/blob/main/results/65030.png" style="width:128px; height:128px;"/>
-               </td>
-               <td>
-                    <img src="https://github.com/prajwalsingh/TreeGCN-GAN/blob/main/results/65259.png" style="width:128px; height:128px;"/>
-               </td>
-               <td>
-                    <img src="https://github.com/prajwalsingh/TreeGCN-GAN/blob/main/results/65279.png" style="width:128px; height:128px;"/>
-               </td>
-               <td>
-                    <img src="https://github.com/prajwalsingh/TreeGCN-GAN/blob/main/results/65508.png" style="width:128px; height:128px;"/>
-               </td>
-               <td>
-                    <img src="https://github.com/prajwalsingh/TreeGCN-GAN/blob/main/results/65528.png" style="width:128px; height:128px;"/>
-               </td>
-          </tr>
-          <tr>
-               <td>
-                    <img src="https://github.com/prajwalsingh/TreeGCN-GAN/blob/main/results/65757.png" style="width:128px; height:128px;"/>
-               </td>
-               <td>
-                    <img src="https://github.com/prajwalsingh/TreeGCN-GAN/blob/main/results/65777.png" style="width:128px; height:128px;"/>
-               </td>
-               <td>
-                    <img src="https://github.com/prajwalsingh/TreeGCN-GAN/blob/main/results/66006.png" style="width:128px; height:128px;"/>
-               </td>
-               <td>
-                    <img src="https://github.com/prajwalsingh/TreeGCN-GAN/blob/main/results/66026.png" style="width:128px; height:128px;"/>
-               </td>
-               <td>
-                    <img src="https://github.com/prajwalsingh/TreeGCN-GAN/blob/main/results/66255.png" style="width:128px; height:128px;"/>
-               </td>
-               <td>
-                    <img src="https://github.com/prajwalsingh/TreeGCN-GAN/blob/main/results/66275.png" style="width:128px; height:128px;"/>
-               </td>
-          </tr>
-  </table>
- -->
+# Results
+
+<table style="width:100%; height:100%; border:none;">
+       <tr>
+             <td colspan=3 align="center">
+                  <b>Intra-class interpolation results</b>
+             </td>
+       </tr>
+       <tr>
+             <td>
+                 <img src="https://github.com/prajwalsingh/TreeGCN-ED/blob/main/results_gif/chair_to_chair_7.gif" style="width:310px; height:210px;"/>
+             </td>
+             <td>
+                 <img src="https://github.com/prajwalsingh/TreeGCN-ED/blob/main/results_gif/table_to_table_4.gif" style="width:310px; height:210px;"/>
+             </td>
+             <td>
+                 <img src="https://github.com/prajwalsingh/TreeGCN-ED/blob/main/results_gif/airplane_to_airplane_5.gif" style="width:310px; height:210px;"/>
+             </td>
+       </tr>
+ <tr>
+             <td colspan=3 align="center">
+                  <b>Inter-class interpolation results</b>
+             </td>
+       </tr>
+       <tr>
+             <td>
+                 <img src="https://github.com/prajwalsingh/TreeGCN-ED/blob/main/results_gif/10.laptop_to_plane.gif" style="width:310px; height:210px;"/>
+             </td>
+             <td>
+                 <img src="https://github.com/prajwalsingh/TreeGCN-ED/blob/main/results_gif/14.mug_to_table.gif" style="width:310px; height:210px;"/>
+             </td>
+             <td>
+                 <img src="https://github.com/prajwalsingh/TreeGCN-ED/blob/main/results_gif/16.car_to_chair.gif" style="width:310px; height:210px;"/>
+             </td>
+       </tr>
+</table>
+
 # Reference
 [1] [3D Point Cloud Generative Adversarial Network Based on Tree Structured Graph Convolutions](https://arxiv.org/abs/1905.06292) [ Dong Wook Shu, Sung Woo Park, Junseok Kwon ]
