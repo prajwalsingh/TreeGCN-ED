@@ -36,6 +36,17 @@ An autoencoder for point cloud encoding-decoding build using tree-GAN as base wo
                  <img src="https://github.com/prajwalsingh/TreeGCN-ED/blob/main/results_gif/airplane_to_airplane_5.gif" style="width:310px; height:210px;"/>
              </td>
        </tr>
+      <tr>
+          <td  align="center">
+               Chair to Chair
+          </td>
+          <td  align="center">
+               Table to Table
+          </td>
+          <td  align="center">
+               Airplane to Airplane
+          </td>
+      </tr>
  <tr>
              <td colspan=3 align="center">
                   <b>Inter-class interpolation results</b>
@@ -52,6 +63,17 @@ An autoencoder for point cloud encoding-decoding build using tree-GAN as base wo
                  <img src="https://github.com/prajwalsingh/TreeGCN-ED/blob/main/results_gif/16.car_to_chair.gif" style="width:310px; height:210px;"/>
              </td>
        </tr>
+       <tr>
+          <td  align="center">
+               Laptop to Airplane
+          </td>
+          <td  align="center">
+               Cup to Table
+          </td>
+          <td  align="center">
+               Car to Chair
+          </td>
+      </tr>
 </table>
 
 # Reference
