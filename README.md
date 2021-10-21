@@ -78,7 +78,7 @@ An autoencoder for point cloud encoding-decoding build using tree-GAN as base wo
       </tr>
 </table>
 
-### Citation
+### Bibtex Citation
 
 <pre>
 @misc{singh2021treegcned,
