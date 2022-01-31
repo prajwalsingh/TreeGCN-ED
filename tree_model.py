@@ -132,8 +132,8 @@ class TreeED(Model):
 	def __init__(self, N=2048, K=10, latent_dim=512, batch_size=16):
 		super(TreeED, self).__init__()
 
-		filters_enc         = [3, 32, 64, 128, 128, 256, 512]
-		downsample_enc      = [2,  2,  2,   2,   2,  64]
+		filters_enc         = [3, 32, 64, 128, 128, 256, latent_dim]
+		downsample_enc      = [2,  2,  2,   2,   2,  (N*64)//2048]
 		self.depth_enc      = len(filters_enc) - 1
 		self.tree_layer_enc = []
 		curr_nodes_enc      = N
@@ -146,7 +146,7 @@ class TreeED(Model):
 
 
 		filters_dec         = [latent_dim, 512, 256, 256, 128, 128, 128, 3]
-		degrees_dec         = [         1,   2,   2,   2,   2,   2,  64]
+		degrees_dec         = [         1,   2,   2,   2,   2,   2,  (N*64)//2048]
 		self.depth_dec      = len(filters_dec) - 1
 		self.tree_layer_dec = []
 		curr_nodes_dec      = 1
