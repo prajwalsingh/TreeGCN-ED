@@ -11,12 +11,12 @@ An autoencoder for point cloud encoding-decoding build using tree-GAN as base wo
   * https://www.youtube.com/watch?v=HYAgJN3x4GA
 * Sample point cloud is spherical normalized.
 * Data generation code is present in Preprocessing_Data folder.
-* ShapeNetBenchmarkV2 numpy format dataset: [Link](https://drive.google.com/file/d/19aEXb_zVc99KG2qG0O23XZ9Z1sMyCCVw/view?usp=sharing)
+* ShapeNetBenchmarkV2 numpy format dataset: [Link](https://iitgnacin-my.sharepoint.com/:u:/g/personal/singh_prajwal_iitgn_ac_in/EUVQLfQ7J1FUHi9UfzkeDksBoBRhKcB4F-djsXU986dMQw?e=Tr51es)
 
 ### Pre-trained model
 * Download pre-trained model from google drive:
-  * [treeED_ckpt](https://drive.google.com/drive/folders/1BB39jONorejKfLeO4UQX84t3OlpSowQ0?usp=sharing)
-  * [treeED_eckpt](https://drive.google.com/drive/folders/1IJy209nC8-V8ZvM55rhlnQ3iJZKIz2FF?usp=sharing)
+  * [treeED_ckpt](https://iitgnacin-my.sharepoint.com/:f:/g/personal/singh_prajwal_iitgn_ac_in/EvrEyXkgNihMo83Yl4QrFZMBeJg3Ow-MqichqIbzq2UCKw?e=jmF0Ee)
+  * [treeED_eckpt](https://iitgnacin-my.sharepoint.com/:f:/g/personal/singh_prajwal_iitgn_ac_in/Et25Augmb35Kp-3Gn3dcCH4B5D7w9cr2yrY5dbLLuI2rPw?e=A8vAuY)
 * Keep treeED_ckpt, treeED_eckpt as it is in code directory.
 
 ### Results
