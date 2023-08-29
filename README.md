@@ -9,7 +9,6 @@ An autoencoder for point cloud encoding-decoding build using tree-GAN as base wo
   * https://www.youtube.com/watch?v=HYAgJN3x4GA
 * Sample point cloud is spherical normalized.
 * Data generation code is present in Preprocessing_Data folder.
-* ShapeNetBenchmarkV2 numpy format dataset: [Link](https://iitgnacin-my.sharepoint.com/:u:/g/personal/singh_prajwal_iitgn_ac_in/EUVQLfQ7J1FUHi9UfzkeDksBoBRhKcB4F-djsXU986dMQw?e=Tr51es)
 
 ### Results
 
