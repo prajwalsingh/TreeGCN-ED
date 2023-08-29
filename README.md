@@ -72,16 +72,3 @@ An autoencoder for point cloud encoding-decoding build using tree-GAN as base wo
 
 ### Reference
 [1] [3D Point Cloud Generative Adversarial Network Based on Tree Structured Graph Convolutions](https://arxiv.org/abs/1905.06292) [ Dong Wook Shu, Sung Woo Park, Junseok Kwon ]
-
-### Bibtex Citation
-
-<pre>
-@misc{singh2021treegcned,
-      title={TreeGCN-ED: Encoding Point Cloud using a Tree-Structured Graph Network}, 
-      author={Prajwal Singh and Kaustubh Sadekar and Shanmuganathan Raman},
-      year={2021},
-      eprint={2110.03170},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
-</pre>
