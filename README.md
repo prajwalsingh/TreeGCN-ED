@@ -15,8 +15,8 @@ An autoencoder for point cloud encoding-decoding build using tree-GAN as base wo
 
 ### Pre-trained model
 * Download pre-trained model from google drive:
-  * [treeED_ckpt](https://iitgnacin-my.sharepoint.com/:f:/g/personal/singh_prajwal_iitgn_ac_in/EvrEyXkgNihMo83Yl4QrFZMBeJg3Ow-MqichqIbzq2UCKw?e=jmF0Ee)
-  * [treeED_eckpt](https://iitgnacin-my.sharepoint.com/:f:/g/personal/singh_prajwal_iitgn_ac_in/Et25Augmb35Kp-3Gn3dcCH4B5D7w9cr2yrY5dbLLuI2rPw?e=A8vAuY)
+  * [treeED_ckpt](https://iitgnacin-my.sharepoint.com/:f:/g/personal/19210048_iitgn_ac_in/EvrEyXkgNihMo83Yl4QrFZMBeJg3Ow-MqichqIbzq2UCKw?e=vjw3Wb)
+  * [treeED_eckpt](https://iitgnacin-my.sharepoint.com/:f:/g/personal/19210048_iitgn_ac_in/Et25Augmb35Kp-3Gn3dcCH4B5D7w9cr2yrY5dbLLuI2rPw?e=aobVqd)
 * Keep treeED_ckpt, treeED_eckpt as it is in code directory.
 
 ### Results
