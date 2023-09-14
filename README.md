@@ -1,6 +1,8 @@
 ### TreeGCN-ED
 An autoencoder for point cloud encoding-decoding build using tree-GAN as base work.
 
+[[Paper Link](https://arxiv.org/abs/2110.03170)]
+
 ### Dataset Generation Step
 * ShapeNetBenchmarkV2 dataset is used.
 * To sample pointcloud from mesh:
@@ -9,6 +11,13 @@ An autoencoder for point cloud encoding-decoding build using tree-GAN as base wo
   * https://www.youtube.com/watch?v=HYAgJN3x4GA
 * Sample point cloud is spherical normalized.
 * Data generation code is present in Preprocessing_Data folder.
+* ShapeNetBenchmarkV2 numpy format dataset: [Link](https://iitgnacin-my.sharepoint.com/:u:/g/personal/singh_prajwal_iitgn_ac_in/EUVQLfQ7J1FUHi9UfzkeDksBoBRhKcB4F-djsXU986dMQw?e=Tr51es)
+
+### Pre-trained model
+* Download pre-trained model from google drive:
+  * [treeED_ckpt](https://iitgnacin-my.sharepoint.com/:f:/g/personal/singh_prajwal_iitgn_ac_in/EvrEyXkgNihMo83Yl4QrFZMBeJg3Ow-MqichqIbzq2UCKw?e=jmF0Ee)
+  * [treeED_eckpt](https://iitgnacin-my.sharepoint.com/:f:/g/personal/singh_prajwal_iitgn_ac_in/Et25Augmb35Kp-3Gn3dcCH4B5D7w9cr2yrY5dbLLuI2rPw?e=A8vAuY)
+* Keep treeED_ckpt, treeED_eckpt as it is in code directory.
 
 ### Results
 
@@ -69,6 +78,18 @@ An autoencoder for point cloud encoding-decoding build using tree-GAN as base wo
       </tr>
 </table>
 
-
 ### Reference
 [1] [3D Point Cloud Generative Adversarial Network Based on Tree Structured Graph Convolutions](https://arxiv.org/abs/1905.06292) [ Dong Wook Shu, Sung Woo Park, Junseok Kwon ]
+
+### Bibtex Citation
+
+<pre>
+@misc{singh2021treegcned,
+      title={TreeGCN-ED: Encoding Point Cloud using a Tree-Structured Graph Network}, 
+      author={Prajwal Singh and Kaustubh Sadekar and Shanmuganathan Raman},
+      year={2021},
+      eprint={2110.03170},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+</pre>
