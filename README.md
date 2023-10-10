@@ -84,12 +84,14 @@ An autoencoder for point cloud encoding-decoding build using tree-GAN as base wo
 ### Bibtex Citation
 
 <pre>
-@misc{singh2021treegcned,
-      title={TreeGCN-ED: Encoding Point Cloud using a Tree-Structured Graph Network}, 
-      author={Prajwal Singh and Kaustubh Sadekar and Shanmuganathan Raman},
-      year={2021},
-      eprint={2110.03170},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings {10.2312:pg.20231278,
+booktitle = {Pacific Graphics Short Papers and Posters},
+editor = {Chaine, Raphaëlle and Deng, Zhigang and Kim, Min H.},
+title = {{TreeGCN-ED: A Tree-Structured Graph-Based Autoencoder Framework For Point Cloud Processing}},
+author = {Singh, Prajwal and Tiwari, Ashish and Sadekar, Kaustubh and Raman, Shanmuganathan},
+year = {2023},
+publisher = {The Eurographics Association},
+ISBN = {978-3-03868-234-9},
+DOI = {10.2312/pg.20231278}
 }
 </pre>
