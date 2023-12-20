@@ -87,7 +87,7 @@ class TreeEncoder(Model):
 			else:
 					Anc_info  = gath_feat
 
-		#  Upsampling the nodes
+		#  Downsampling the nodes
 		if self.downsample>0:
 			N          = self.curr_node
 			next_level = tf.expand_dims(tree[-1], axis=2) @ self.W_down
